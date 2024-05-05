@@ -1,0 +1,28 @@
+
+.conta_boder {
+    box-shadow: 2px 2px 6px grey;
+}
+
+.blog_detail {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.blog_img {
+    /* width: 70%; */
+}
+
+.blog_img img {
+    width: 50%;
+}
+
+.blog_des {
+    text-align: left;
+}
+@media (min-width: 900px) {
+    blockquote {
+        padding: 0.5rem;
+        font-size: 1.1em;
+        font-family : 'Open Sans',Arial,sans-serif;
+    }
+}
