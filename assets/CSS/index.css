@@ -1,5 +1,5 @@
 body {
-    margin: 1em 10em ;
+    margin: 0 10em ;
     background: #F5F5F5;
     color: black;
 }
@@ -11,15 +11,18 @@ body {
 
 .header {
     padding: 1rem 0;
-    margin: 0 auto;
+    margin: 0 ;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background-color: #CAE1FF;
+
 }
 
 .header .header_ttl {
     font-weight: lighter;
     text-transform: capitalize;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0 auto;
     justify-content: center;
 }
@@ -48,6 +51,7 @@ body {
 }
 .navigation .nav_link a:hover {
     background-color: #CFCFCF;
+    color: black;
     
 }
 .nav_link .nav_btn {

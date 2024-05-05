@@ -2,10 +2,6 @@
 @import '/assets/CSS/cassetal.css';
 @import '/assets/CSS/detail.css';
 
-@import url("/assets/CSS/index.css");
-@import url("/assets/CSS/cassetal.css");
-@import url("/assets/CSS/detail.css");
-
 
 @media (max-width: 400px) {
     body {

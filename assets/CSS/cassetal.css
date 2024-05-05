@@ -5,6 +5,7 @@
     gap: 1em 1em;
     flex-wrap: wrap;
     align-content:center;
+    justify-content :center;
 }
 
 .cst {
@@ -15,10 +16,12 @@
     max-width: 512px;
     /* min-height: 200px; */
     min-width: 412px;
+    background-color: white;
 }
 
 .cst:hover {
     box-shadow: 4px 4px 8px grey;
+    background-color: #EEEEEE;
 }
 .cst_left {
     width: 40%;
@@ -58,10 +61,11 @@
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: #0e2eed;
     border: 1px solid grey;
     border-radius: 8px;
     font-size: 0.7em;
+    background-color: aliceblue;
 }
 .cst_button:hover {
     background-color: #CFCFCF;
@@ -78,6 +82,6 @@
 }
 
 footer {
-    adding: 1rem 0;
+    padding: 1rem 0;
     margin: 1rem;
 }
