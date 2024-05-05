@@ -13,7 +13,7 @@
     box-shadow: 2px 2px 6px grey;
     border-radius: 1.5%;
     max-width: 512px;
-    min-height: 217px;
+    /* min-height: 200px; */
     min-width: 412px;
 }
 

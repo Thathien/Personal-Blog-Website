@@ -1,0 +1,45 @@
+@import '/assets/CSS/index.css';
+@import '/assets/CSS/cassetal.css';
+@import '/assets/CSS/detail.css';
+
+@import url("/assets/CSS/index.css");
+@import url("/assets/CSS/cassetal.css");
+@import url("/assets/CSS/detail.css");
+
+
+@media (max-width: 400px) {
+    body {
+        margin: 1em 1em ;
+    }
+    .header{
+        padding: 0;
+    }
+    .header .header_ttl  {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .header .header_des {
+        font-size: 1em;
+    }
+   .cst {
+    max-height: 150px;
+   }
+
+   .cst_body h2 {
+    font-size: 18px;
+   }
+
+   .cst_body h4  {
+    font-size: 12px;
+   }
+   .cst_des {
+    font-size: 12px;
+   }
+   .cst_button {
+    padding: 6px;
+   }
+   .header_ttl {
+    font-size: 1.5em;
+   }
+}

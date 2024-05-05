@@ -3,6 +3,11 @@
     box-shadow: 2px 2px 6px grey;
 }
 
+.container_edit {
+    display: flex;
+    
+}
+
 .blog_detail {
     padding: 1.5rem;
     text-align: center;
@@ -19,10 +24,57 @@
 .blog_des {
     text-align: left;
 }
+
+.conta_left {
+    margin: 1em;
+    text-align: center;
+    background-color: #abb8c3;
+}
+.author_img {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.author_name {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.author_position {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.author_education {
+    margin: 0 auto;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.author_intro {
+    font-style:oblique;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+}
+.author_link {
+    margin: 0 auto;
+}
 @media (min-width: 900px) {
     blockquote {
         padding: 0.5rem;
         font-size: 1.1em;
         font-family : 'Open Sans',Arial,sans-serif;
+    }
+}
+
+@media (max-width: 900px) {
+    .container_edit{
+        flex-wrap:wrap;
+    }
+    body {
+        margin: 1em 1em ;
     }
 }
