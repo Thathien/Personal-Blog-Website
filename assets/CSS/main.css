@@ -1,9 +1,9 @@
-@import '../CSS/index.css';
-@import '../CSS/cassetal.css';
-@import '../CSS/detail.css';
+@import '/assets/CSS/index.css';
+@import '/assets/CSS/cassetal.css';
+@import '/assets/CSS/detail.css';
 
 
-@media (max-width: 550px) {
+@media (max-width: 400px) {
     body {
         margin: 1em 1em ;
     }
@@ -11,7 +11,7 @@
         padding: 0;
     }
     .header .header_ttl  {
-        /* font-size: 1.5em; */
+        font-size: 1.5em;
         font-weight: bold;
     }
 
@@ -38,30 +38,4 @@
    .header_ttl {
     font-size: 1.5em;
    }
-
-   .container_edit {display: flex;}
-
-}
-
-@media (max-width: 450px) {
-    .cst {
-        /* margin-right: 1em;
-        margin-left: 1em;
-        width: 380px; */
-        min-width: 350px;
-       }
-    
-    .cst_left {
-        width: 40%;
-    }
-    .cst_right {
-        width: 60%;
-    }
-    .cst_des {
-        margin: 0 auto;
-        margin-bottom: 0.25em;
-    }
-    .cst_icn {
-        margin-right: 0;
-    }
 }

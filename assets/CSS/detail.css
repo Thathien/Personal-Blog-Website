@@ -4,8 +4,7 @@
 }
 
 .container_edit {
-    display: grid;
-    grid-template-columns: 20em auto auto;
+    display: flex;
     
 }
 
